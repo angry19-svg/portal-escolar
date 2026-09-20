@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Atividades Escolares</title>
+    <!-- Corrigido para a raiz: sem os pontos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Acessibilidade: Tags semânticas e labels para leitores de tela -->
+    <header>
+        <nav aria-label="Navegação principal do portal escolar">
+            <button onclick="navegar('dashboard')">Painel Inicial</button>
+            <button onclick="navegar('materias')">Matérias</button>
+            <button onclick="navegar('prazos')">Prazos e Entregas</button>
+            <button onclick="navegar('cadastro')">Cadastrar Atividade</button>
+        </nav>
+    </header>
+
+    <!-- Acessibilidade: Uso da tag semântica main -->
+    <main id="conteudo-principal" role="main"></main>
+
+    <!-- Corrigido para a raiz: sem os pontos -->
+    <script src="Js/app.js"></script>
+</body>
+</html>
